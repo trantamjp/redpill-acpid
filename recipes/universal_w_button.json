@@ -13,7 +13,7 @@
       "packed": false
     },
     {
-      "name": "acpid.tar.gz",
+      "name": "acpi_button-4.4.180p.tgz",
       "url": "https://github.com/trantamjp/redpill-acpid/raw/develop/releases/v1.0.0/denverton/acpi_button-4.4.180p.tgz",
       "sha256": "1ec35ff0dd22c84c1cff9fabec4215364bd1a2309a9a7476ae11b10a44e23c51",
       "packed": true
