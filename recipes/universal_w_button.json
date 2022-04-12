@@ -1,28 +1,19 @@
 {
   "files": [
     {
-      "name": "install-acpid.sh",
-      "url": "https://github.com/trantamjp/redpill-acpid/raw/develop/src/install-acpid.sh",
-      "sha256": "5b3e42a3907c00b1dd1ae31363a4ae648b88cda5b18cc39f3601548bb7af6a35",
+      "name": "install-acpid-w-button.sh",
+      "url": "https://github.com/trantamjp/redpill-acpid/raw/develop/src/install-acpid-w-button.sh",
+      "sha256": "aabc0afe3a392889ab56a4d6c378d924d51e6b3011c7e76d5f3cf7cf9a19f3e7",
       "packed": false
     },
     {
-      "name": "acpid.tar.gz",
-      "url": "https://github.com/trantamjp/redpill-acpid/raw/develop/acpid.tar.gz",
-      "sha256": "2dfb078b54e63802c48393b1f488a4c7303a14c7ee3bd16c7f169e5fca661c73",
+      "name": "acpid_w_button.tar.gz",
+      "url": "https://github.com/trantamjp/redpill-acpid/raw/develop/acpid_w_button.tar.gz",
+      "sha256": "f6ba90e7efce8d081b3d7d1be000ab049a0c7ae405404c84dca021491767a70d",
       "packed": false
-    },
-    {
-      "name": "acpi_button-4.4.180p.tgz",
-      "url": "https://github.com/trantamjp/redpill-acpid/raw/develop/releases/v1.0.0/denverton/acpi_button-4.4.180p.tgz",
-      "sha256": "1ec35ff0dd22c84c1cff9fabec4215364bd1a2309a9a7476ae11b10a44e23c51",
-      "packed": true
     }
   ],
-  "kmods": {
-    "button.ko": ""
-  },
   "scripts": {
-    "on_os_load": "install-acpid.sh"
+    "on_os_load": "install-acpid-w-button.sh"
   }
 }
